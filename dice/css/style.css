@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+body { 
+	background: black; 
+	color: white;
+	font-family: Lato;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+ul { margin: 0; padding: 0; list-style: none; }
+li { margin: 0; }
+p { padding: 0; margin: 0 0 10px 0; }
+img { border: 0; }
+
+a, 
+a:visited, 
+a:link { text-decoration: none; color: white}
+a:visited { color: white; }
+a:hover { text-decoration: none; color: #3399CC; }
+
+/* Nav
+----------------------------------------------------------- */
+
+#nav {
+	background-color: rgb(16, 16, 17);
+	background-color: rgba(16, 16, 17, 0.70);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9003;
+	height: 40px;
+}
+
+#nav ul {
+	display: block;
+	margin-left: 10px;
+}		
+
+#nav li {
+	float: left;
+	position: relative;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+				
+#nav li a {
+	color: white;
+	display: block;
+	padding: 10px 10px;
+	line-height: 22px;
+}
+		
+#nav li a:hover { color: #3399CC; 
